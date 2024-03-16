@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farzan's Portfolio</title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Port<span>folio.</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Experience</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, I'm</h3>
+        <h1>Farzan Devlaliwalla</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>I am a third year student studying electrical and electronics engineering at Curtin University.
+          Alongside my studies, I also have a passion for web development and develop websites and web 
+          applications entirely from scratch using various programming languages. I am eager to grow my
+          skillset by applying myself in the real world and connecting with others in the industry.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="https://www.linkedin.com/in/farzan-devlaliwalla-14109925a/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="Resume.pdf" download class="btn">Download CV</a>
+        <a href="mailto:farzan.d03@gmail.com" class="secondarybtn">Contact Me</a>
+      </div>
+
+      <div class="home-img">
+        <img src="images/2.png" alt="">
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/3.png" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Electrical Engineer</h3>
+        <p>Hello, I'm Farzan, a third-year electrical engineering student with a passion for crafting websites and web applications from the ground up using various programming languages. Self-taught in this domain, I've embarked on a journey of continuous learning and exploration, improving my skills in web development with each project undertaken.</p>
+        <a href="#" class="btn read-more-btn" data-modal="about-section-modal">Read More</a>
+      </div>
+    </section>
+
+    <!-- about section modal -->
+    <div class="modal" id="about-section-modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>About Me</h2>
+          <p>Hello, I'm Farzan, a third-year electrical engineering student with a passion for crafting websites and web applications from the ground up using various programming languages. Self-taught in this domain, I've embarked on a journey of continuous learning and exploration, improving my skills in web development with each project undertaken.
+            
+            <br><br>Alongside my university studies, I've had the privilege of working as an intern engineer in various different departments at BHP, where I've gained firsthand experience in applying theoretical knowledge to real-world projects. This experience has provided me with invaluable insights into the practical aspects of electrical engineering, allowing me to enhance my problem-solving abilities and technical proficiency.
+            
+            <br><br>Beyond my academic and professional pursuits, I find immense fulfillment in giving back to my community through volunteering. Currently, I devote my time to Save the Children, contributing to their noble cause with dedication and compassion. Additionally, I serve as a STEM study buddy, sharing my knowledge and enthusiasm for science, technology, engineering, and mathematics with students eager to explore these fields.
+            
+            <br><br>In essence, I am a driven individual fueled by curiosity, creativity, and a desire to make a positive impact in the world through technical excellence.</p>
+      </div>
+    </div>
+
+    <!-- education section design -->
+    <section class="education" id="education">
+      <h2 class="heading">My <span>Journey</span></h2>
+
+      <div class="education-row">
+        <div class="education-column">
+          <h3 class="title">Education</h3>
+
+          <div class="education-box">
+            <div class="education-content">
+              <div class="content">
+                <div class="year"> <i class="bx bxs-calendar"></i>2016 - 2021</div>
+                <h3>Graduate - Carey Baptist College</h3>
+                <p class="description">During my years in high school, I was involved <br>in many extracurricular activities. 
+                  I was an...</p>
+                <a href="#" class="btn read-more-btn description" data-modal="highschool-modal">Read More</a>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year"> <i class="bx bxs-calendar"></i>2022 - 2026</div>
+                <h3>BEng Hons. Electrical & Electronic - Curtin University</h3>
+                <p class="description">During the course of my degree so far, I have <br>been exposed to a diverse array of problems <br>and
+                  fields such as embedded systems, electronics...</p>
+                <a href="#" class="btn read-more-btn description" data-modal="university-modal">Read More</a>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year"> <i class="bx bxs-calendar"></i>2022 - Present</div>
+                <h3>HTML, CSS, JavaScript</h3>
+                <p class="description">My education and understanding of HTML, CSS <br>and JavaScript stemmed from my hobby of <br>building websites.
+                  I began learning to build...</p>
+                <a href="#" class="btn read-more-btn description" data-modal="html-modal">Read More</a>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year"> <i class="bx bxs-calendar"></i>2022 - Present</div>
+                <h3>Python, C89 & C++, MATLAB</h3>
+                <p class="description">My knowledge of Python, C89 & C++ and MATLAB all <br>stem from my degree. As part of my degree, <br>I have been required
+                  to use these languages <br>to complete...</p>
+                <a href="#" class="btn read-more-btn description" data-modal="matlab-modal">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="education-column">
+          <h3 class="title">Experience</h3>
+
+          <div class="education-box">
+            <div class="education-content">
+              <div class="content">
+                <div class="year"> <i class="bx bxs-calendar"></i>Nov 2022 - Jan 2023</div>
+                <h3>First Year Intern - BHP</h3>
+                <p class="description">During this internship, I used interpersonal <br>skills, networking and problem solving to <br>create a group...</p>
+                <a href="#" class="btn read-more-btn description" data-modal="firstyearintern-modal">Read More</a>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year"> <i class="bx bxs-calendar"></i>Feb 2023 - Nov 2023</div>
+                <h3>Intern Electrical Engineer - BHP</h3>
+                <p class="description">During this internship, I was granted the <br>opportunity to work in the NPI GTS electrical <br>engineering 
+                  team at BHP. I was tasked with<br> automating...
+                </p>
+                <a href="#" class="btn read-more-btn description" data-modal="internelectricalengineer1-modal">Read More</a>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year"> <i class="bx bxs-calendar"></i>Nov 2023 - Feb 2024</div>
+                <h3>Intern Reliability Rail Engineer - BHP</h3>
+                <p class="description">During this role, I was given the opportunity to <br>work as an intern Signals & Comms engineer <br>at BHP. I was tasked with creating a power...
+                </p>
+                <a href="#" class="btn read-more-btn description" data-modal="internrailengineer-modal">Read More</a>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year"> <i class="bx bxs-calendar"></i>March 2024 - Present</div>
+                <h3>Intern Electrical Engineer - BHP</h3>
+                <p class="description">In this role, I returned back to the NPI GTS <br>electrical engineering team at BHP. I was <br>given the opportunity
+                  to...</p>
+                <a href="#" class="btn read-more-btn description" data-modal="internelectricalengineer2-modal">Read More</a>
+              </div>
+            </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year"> <i class="bx bxs-calendar"></i>Nov 2021 - Present</div>
+                <h3>Volunteering</h3>
+                <p class="description">Beyond my academic and professional <br>pursuits, I find immense fulfillment in giving 
+                  <br>back to my community through volunteering. <br>Currently...</p>
+                <a href="#" class="btn read-more-btn description" data-modal="volunteering-modal">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- education section modals -->
+    <div class="modal" id="firstyearintern-modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>First Year Intern - BHP</h2>
+          <p>
+            During this internship, I used interpersonal skills, networking and problem solving to create a group presentation on a feasible solution for an internal
+            problem within BHP. Further to this, I also gained exposure to many facets of the mining industry over a structured 8-week program and
+            participated in sessions focusing on personal development and business strategies.</p>
+      </div>
+    </div>
+    <div class="modal" id="internelectricalengineer1-modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Intern Electrical Engineer - BHP</h2>
+          <p>During this internship, I was granted the opportunity to work in the NPI GTS electrical engineering 
+            team at BHP. I was tasked with automating the generation of SCADA power demand 
+            data sheets and presenting the final solution. Upon completion of this placement, I developed skills 
+            working with the SCADA interface, the Pi-Data link add-on in excel, the Pi System Explorer 
+            software and the Pi BA Integrator software.</p>
+      </div>
+    </div>
+    <div class="modal" id="internrailengineer-modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Intern Reliability Rail Engineer - BHP</h2>
+          <p>During this role, I was given the opportunity to work as an intern Signals & Comms engineer in the 
+            rail reliability team at BHP - Port Hedland. In this placement, I was tasked with creating a power 
+            monitoring dashboard on Eaton Visual Power Manager for two CER's (Comms Equipment Rooms). I was fortunate enough to gain exposure to a wide variety of telecomms devices such 
+            as DCN switches, routers, servers - and gain an insight into the real world applications of these.</p>
+      </div>
+    </div>
+    <div class="modal" id="internelectricalengineer2-modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Intern Electrical Engineer - BHP</h2>
+          <p>In this role, I returned back to the NPI GTS electrical engineering team at BHP. I was given the opportunity
+            to undertake an electrical power systems design project, as well as be involved in an arc flash project.
+          </p>
+      </div>
+    </div>
+    <div class="modal" id="volunteering-modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Volunteering</h2>
+          <p>Beyond my academic and professional pursuits, I find immense fulfillment in giving back to my 
+            community through volunteering. Currently, I devote my time to Save the Children, contributing to 
+            their noble cause of sending out care packages to children in need from all around the world. 
+            <br><br>Additionally, I serve as a STEM study buddy, sharing my knowledge and enthusiasm for science, technology, 
+            engineering, and mathematics with students eager to explore these fields but struggling to grasp certain concepts. 
+            <br><br>Most recently I have also co-founded YukuLabs, a company that bridges the gap between physical and digital 
+            methods of learning, with the goal of removing the education inequality that exists between metropolitan and rural areas.</p>
+      </div>
+    </div>
+    <div class="modal" id="highschool-modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>High School Grad - Carey Baptist College</h2>
+          <p>During my years in high school, I was involved in many extracurricular activities. 
+            I was an avid swimmer, tennis player and martial artist and represented my school in multiple 
+            interstate competitions. Beyond that, I was the leader of my school's state STEM solar car 
+            challenge team, and I represented my school in the 2020 state CO2 dragster competition. I 
+            learnt many foundational skills such as leadership, teamwork and communication
+            through these activities. Pursuing academic excellence was another value that I held strongly,
+            and I was able to graduate high school as Proxime Accessit with an ATAR of 98.1.</p>
+      </div>
+    </div>
+    <div class="modal" id="university-modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>BEng Hons. Electrical & Electronic - Curtin University</h2>
+          <p>During the course of my degree so far, I have been exposed to a diverse array of problems and
+            fields such as embedded systems, power systems, communications, networking and electronics. I've also been fortunate enough
+            to learn some really amazing skills along the way such as programming in different languages and assembling physical circuits. Furthermore, I have 
+            developed a strong mathematical foundation to many complex areas in the field of electrical engineering.
+          </p>
+      </div>
+    </div>
+    <div class="modal" id="html-modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>HTML, CSS, JavaScript</h2>
+          <p>My education and understanding of HTML, CSS and JavaScript stemmed from my hobby of building websites.
+            I began learning to build websites from scratch by watching free tutorial videos and using free resources
+            I found on the internet. What started off as a hobby very quickly turned into a skill in programming.
+            My understanding of HTML, CSS and JavaScript has not only helped me produce websites, but it has also given
+            me the skillset required to learn and pick up other programming languages quickly.
+          </p>
+      </div>
+    </div>
+    <div class="modal" id="matlab-modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Python, C89 & C++, MATLAB</h2>
+          <p>My knowledge of Python, C89 and MATLAB all stem from my degree. As part of my degree, I have been required
+            to use these languages to complete various tasks. <br><br>I have used both Python and C89 to create simulations and
+            games, which has enabled me to gain a better understanding of concepts such as data structures and algorithims,
+            linked lists etc. <br><br>I have used MATLAB for mathematical modelling problems (i.e. transfer functions etc),
+            signal processing, as well as plotting electromagnetic vector fields.
+          </p>
+      </div>
+    </div>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>My journey in web development started off with html, css and javascript - the fundamental langugaes for website building.
+            Here, I gained my first...</p>
+          <a href="#" class="btn read-more-btn" data-modal="web-development-modal">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Electrical Engineering</h3>
+          <p>Transitioning into university, as part of my degree, I was required me to undertake units involving python, c and matlab. In both python and c,
+            I created...</p>
+          <a href="#" class="btn read-more-btn" data-modal="electrical-engineering-modal">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Collaboration</h3>
+          <p>Whether collaboration with subject matter experts to overcome deficiencies in knowledge, or collaboration
+            with group members to produce a final solution...</p>
+          <a href="#" class="btn read-more-btn" data-modal="data-analysis-modal">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section modals -->
+    <div class="modal" id="web-development-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Web Development</h2>
+            <p>My journey in web development started off with html, css and javascript - the fundamental langugaes for website building.
+              Here, I gained my first insight into the world of programming and the vast capabilities of it. I began to enjoy generating 
+              my own creations and seeing what I could produce. <br><br>
+              Recently I have been experimenting and attempting to learn various other more modern programming languages such as nodejs,
+              typescript and react to craft more complex web applications. <br><br>
+              Web development has been something that I learnt myself through scowering through the internet and learning from various free
+              tutorials and videos - and so by no means would I say I am an expert in this field! However, I'm always looking to learn and
+              develop my skills in this field as I thoroughly enjoy it.</p>
+        </div>
+    </div>
+    
+    <div class="modal" id="electrical-engineering-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Electrical Engineering</h2>
+            <p>Transitioning into university, as part of my degree, I was required me to undertake units involving python, c and matlab. In both python and c,
+              I created simple games and simulations. These projects helped build my knowledge of fundamental concepts such 
+              as arrays, conditonal logic and statements, loops, file structures and much more. <br><br>
+              For matlab, I have been learning to use the software to plot and visualise electromagnetic vector fields, for designing signal processing
+              filters, and for solving and modelling mathematics problems. <br><br>
+              Aside from the programming side of things, I have also been immersed into a world of complex mathematics, been exposed to configuring
+              microcontrollers through using fundamental principles of boolean logic, and overall become a much better problem solver through my
+              journey as an electrical engineering student.
+            </p>
+        </div>
+    </div>
+    
+    <div class="modal" id="data-analysis-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Collaboration</h2>
+            <p>Throughout my various internships, I have noticed that collaboration has always been essential to ensure success in any realm.
+              Whether collaborating with subject matter experts to overcome deficiencies in knowledge, or collaborating
+              with group members to produce a final solution, collaboration is a skill that I consider to be essential.
+              <br><br>Through my various experiences, I believe I have practiced many of the skills it takes to collaborate well,
+              such as active listening, clear communication, inclusivity to promote the flow of ideas, and a whole lot more.
+            </p>
+        </div>
+    </div>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/norupic.jpeg" alt="">
+          <div class="portfolio-layer">
+            <h4>Noru</h4>
+            <p>Noru is a tutoring academy whose website I built out, implementing modern visuals, complex animations such as dark & light mode & a fully functioning contact form.</p>
+            <a href="https://farzand03.github.io/norulabsfinal/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/imaginepic.jpeg" alt="">
+          <div class="portfolio-layer">
+            <h4>Imaginify</h4>
+            <p>Imaginify is an AI picture editing, full stack web app that I built out. It has a fully functioning login & signup system & many advanced editing features. </p>
+            <a href="https://imaginify-kohl.vercel.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/rocketlogin.jpeg" alt="">
+          <div class="portfolio-layer">
+            <h4>Rocketeer</h4>
+            <p>Rocketeer was a trial web app proposed by a few university students, that I built out a login and signup page for, implementing modern designs & animations. </p>
+            <a href="https://farzand03.github.io/rocketeer/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/Grillipic.jpeg" alt="">
+          <div class="portfolio-layer">
+            <h4>Grilli</h4>
+            <p>Grilli is a website I built out for a local restaurant. This highly detailed build includes amazing animations, great visuals and advanced features such as pagination.</p>
+            <a href="https://farzand03.github.io/grilli/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/junglabs.jpeg" alt="">
+          <div class="portfolio-layer">
+            <h4>Travelo</h4>
+            <p>Travelo was a project I undertook to build out a landing page for a student-proposed travel company, implementing modern visuals and a smooth parallax effect.</p>
+            <a href="https://farzand03.github.io/junglabs/" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/IMAChatbot.jpeg" alt="">
+          <div class="portfolio-layer">
+            <h4>Willow</h4>
+            <p>Using JavaScript in tandem with Botpress, I developed an AI powered chatbot that was able to answer all customer enquiries about a local martial arts business.</p>
+            <a href="https://mediafiles.botpress.cloud/96ccd3d9-aa18-4a18-98fa-2d2878cc28cc/webchat/bot.html" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <p>Whether it's a question about my developing journey, a question about my academic career, or you just want to have a chat, I'd love to hear from you!</p>
+
+      <form action="https://formspree.io/f/mleqwerw" method="POST">
+        <div class="input-box">
+          <input name="Name" type="text" placeholder="Full Name">
+          <input name="Email" type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+          <input name="Number" type="number" placeholder="Mobile Number">
+          <input name="Subject" type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Submit" class="btn">
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Farzan Devlaliwalla | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+  </body>
+</html>
